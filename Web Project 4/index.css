@@ -1,0 +1,59 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+body{
+    width: 100%;
+    height: 1000px;
+    background: url(/taj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+   
+}
+.navbar .logo h1{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    height: auto;   
+    text-transform: uppercase;
+    word-spacing: 8px;
+}
+.navbar .menu{
+    width: 75%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.navbar .menu a:hover{
+    cursor: pointer;
+    color: brown;
+    text-decoration: underline;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+
+}
